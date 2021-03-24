@@ -319,14 +319,21 @@ section {
 	background-position: 0% 0%;
 }
 
-.intro-table-first {
+.first {
+	background-image: url('/assets/img/table-1.jpg');
+}
+
+.second {
+	background-image: url('/assets/img/table-1.jpg');
+}
+
+.third {
 	background-image: url('/assets/img/table-1.jpg');
 }
 
 .intro-table-hover {
 	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
 	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('/assets/img/table-2.jpg');
 }
 
 .intro-table-hover h4 {
@@ -337,12 +344,7 @@ section {
 }
 
 .intro-table-hover:hover {
-	background-image: url('/assets/img/table-2-hover.jpg');
 	background-position: 50% 50%;
-}
-
-.intro-table-third {
-	background-image: url('/assets/img/table-3.jpg');
 }
 
 .intro-table-hover .expand {

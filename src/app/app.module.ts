@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoaderComponent } from './loader/loader.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AnimTextComponent } from './anim-text/anim-text.component';
+import { BoxChoixComponent } from './box-choix/box-choix.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoaderComponent
+    LoaderComponent,
+    NavbarComponent,
+    AnimTextComponent,
+    BoxChoixComponent
   ],
   imports: [
     BrowserModule,
